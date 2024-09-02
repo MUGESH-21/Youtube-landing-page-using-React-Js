@@ -1,0 +1,14 @@
+/* Content component styles */
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card {
+    /* Ensure card takes up full width of the grid cell */
+    width: 100%;
+}

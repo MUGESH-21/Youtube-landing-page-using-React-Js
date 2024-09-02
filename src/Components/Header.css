@@ -1,0 +1,60 @@
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80px; /* Initial width for icons-only view */
+    background-color: black;
+    color: white;
+    transition: width 0.3s ease;
+    overflow-x: hidden;
+    z-index: 999;
+    padding-top: 60px;
+  }
+  
+  .sidebar.open {
+    width: 250px; /* Expanded width to show text */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 20px 10px;
+    border-bottom: 1px solid #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebar ul li span {
+    margin-left: 15px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .sidebar.open ul li span {
+    opacity: 1;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    top: 20px; /* Adjust top position as needed */
+    left: 20px; /* Adjust left position as needed */
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000; /* Ensure button is above the sidebar */
+  }
+  .toggle-button{
+    position: absolute;
+    top:40px;
+    left: 25px;
+  }
+  

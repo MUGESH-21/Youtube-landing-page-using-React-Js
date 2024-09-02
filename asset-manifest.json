@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Youtube-landing-page-using-React-Js/static/css/main.174fa4e8.css",
+    "main.js": "/Youtube-landing-page-using-React-Js/static/js/main.36aa66a7.js",
+    "static/js/453.1d07c4bd.chunk.js": "/Youtube-landing-page-using-React-Js/static/js/453.1d07c4bd.chunk.js",
+    "index.html": "/Youtube-landing-page-using-React-Js/index.html",
+    "main.174fa4e8.css.map": "/Youtube-landing-page-using-React-Js/static/css/main.174fa4e8.css.map",
+    "main.36aa66a7.js.map": "/Youtube-landing-page-using-React-Js/static/js/main.36aa66a7.js.map",
+    "453.1d07c4bd.chunk.js.map": "/Youtube-landing-page-using-React-Js/static/js/453.1d07c4bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.174fa4e8.css",
+    "static/js/main.36aa66a7.js"
+  ]
+}
